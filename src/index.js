@@ -56,7 +56,7 @@ app.post('/emailForm/:formId', async (req, res) => {
 
   try {
     // Construct the link to the form
-    const formLink = `https://lambent-dodol-73afe5.netlify.app/fillform/${formId}`;
+    const formLink = `https://main--endearing-nasturtium-fcdad5.netlify.app/fillform/${formId}`;
 
     // Send the email using nodemailer
     await transporter.sendMail({
